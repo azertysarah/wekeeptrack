@@ -1,3 +1,4 @@
+/* style header user*/
 #topsection
 {
     display: flex;
@@ -81,6 +82,8 @@ nav li:hover
     color:#fff;
     border-top: none;
 }
+
+/*fin style header*/
 
 #photo
 {
