@@ -83,6 +83,12 @@ nav li:hover
     border-top: none;
 }
 
+a
+{
+    color:#fff;
+    text-decoration: none;
+}
+
 /*fin style header*/
 
 #photo
