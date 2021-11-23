@@ -1,0 +1,53 @@
+html{
+	font-family: 'Crimson Text', serif;
+	font-size: 18px;
+	background-color:#F3EFCC;
+}
+
+body {
+	padding: 0;
+	margin: 0;
+}
+button {
+	background-color : #406343;
+	color: white;
+	border: thick double #2a4427;
+	cursor:pointer;
+	padding: 5px;
+}
+
+input {
+	border: 1px solid black;
+	padding: 5px 10px;
+	margin-left: 10px;
+}
+
+header h1 {
+	margin:0;
+}
+
+form {
+	text-align: left;
+	display: inline-block;
+}
+
+#form {
+	text-align: left;
+}
+#info {
+	text-align: center;
+}
+#error {
+	background-color: red;
+	color: white;
+	text-align: center;
+	padding: 5px;
+	display: inline-block;
+	margin: auto;
+}
+.container {
+	width: 500px;
+	margin: 0 auto;
+	background-color:#ECE7B4;
+	padding: 20px;
+}
