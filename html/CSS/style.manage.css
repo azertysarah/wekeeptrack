@@ -190,7 +190,12 @@ label
     font-weight: normal;
     padding:2%;
     font-size:1.25rem;
-    
+    color:#fff;
+    font-family: 'Crimson Text', serif;
+}
+.edit select
+{
+    margin-left:3%;
 }
 .delete
 {
