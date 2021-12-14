@@ -93,6 +93,12 @@ nav li:hover
     flex-grow:5;
     
 } 
+.choix5
+{
+    flex-grow:5;
+    
+} 
+
 
 /*change la couleur des liens*/
 a
