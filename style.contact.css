@@ -1,0 +1,177 @@
+/*debut de style du header*/
+strong
+{
+    font-style: italic;
+}
+/*define le style de toute la page*/
+body
+{
+    background-color: #DAD7CD;
+    color:#fff;
+    font-family: 'Crimson Text', serif;
+
+    margin: 0%;
+    
+
+}
+
+/*organise et definie le style du header*/
+nav
+{
+    display: flex;
+    padding-bottom: 0%;
+    background-color:#304B3F;
+    margin-bottom: 0px;
+    height:80px;
+    
+}
+
+/*enleve les marges du logo*/
+figure
+{
+    margin: 0%;
+    padding-left: 3%;
+    padding-right:3%;
+    transition: all 1s ease-out;
+}
+figure:hover
+{
+    background-color: #DAD7CD;
+}
+/*organise liste*/
+nav ul
+{
+    padding: 0%;
+    list-style-type: none;
+    display:flex;
+    width:100%;
+    margin:0%;
+    font-size: 1.25rem;
+    height:80px;
+    
+    
+}
+/*organise les element de la liste*/
+nav li
+{
+    text-align: center;
+    
+    padding-top:20px;
+    padding-left: 2%;
+    padding-bottom: 5px;
+    padding-right: 2%;
+    transition: all 1s ease-out;
+    
+}
+/*change l'apparence des liens vers les autres page quand le curseur est dessus*/
+nav li:hover
+{
+    background-color: #20322A;
+    color:#fff;
+    border-top: none;
+}
+
+/*répartie également les elements de la liste*/
+.choix1
+{
+    flex-grow:5;
+    
+}
+.choix2
+{
+    flex-grow:5
+}
+.choix3
+{
+    flex-grow:5;
+}
+.choix4
+{
+    flex-grow:5;
+    
+} 
+.choix5
+{
+    flex-grow:5;
+    
+} 
+
+
+/*change la couleur des liens*/
+a
+{
+    color:#fff;
+    text-decoration: none;
+}
+
+/*fin header*/
+
+
+/*style des titres("your manager et admin email" */
+.title
+{
+    display:flex;
+    justify-content: space-evenly;
+    text-decoration: underline;
+    text-align: center;
+    font-weight: normal;
+    color:#304B3F;
+    
+    
+
+}
+
+/*organise les boites manager et admin*/
+#boite
+{
+    display:flex;
+    justify-content: center;
+      
+    
+}
+
+/*organise les boites avec les information des manager et admin*/
+.manager, .administrator
+{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    row-gap:20px ;
+    column-gap: 2%;
+    
+    padding-left: 10px;
+    padding-right: 10px;
+    width:50%;    
+}
+
+/*crée la ligne qui sépare manager et admin*/
+.manager
+{
+    border-right:#20322A 2px solid;  
+}
+.administrator
+{
+    border-left:#20322A 2px solid;  
+}
+
+/*style des boites avec les info des manager et admin*/
+.person
+{
+    
+    border:#20322A 2px solid;
+    height:190px;
+    background-color: #304B3F;
+    
+    
+}
+/*style des adresse mail*/
+.mail
+{
+    text-decoration: underline;
+    font-style: italic;
+}
+
+
+
+
+
