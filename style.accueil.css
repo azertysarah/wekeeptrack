@@ -1,0 +1,195 @@
+
+    
+
+/*debut de style du header*/
+strong
+{
+    font-style: italic;
+}
+/*define le style de toute la page*/
+body
+{
+    background-color: #DAD7CD;
+    color:#fff;
+    font-family: 'Crimson Text', serif;
+
+    margin: 0%;
+    
+
+}
+
+/*organise et definie le style du header*/
+nav
+{
+    display: flex;
+    padding-bottom: 0%;
+    background-color:#304B3F;
+    margin-bottom: 0px;
+    height:80px;
+    
+}
+
+/*enleve les marges du logo*/
+figure
+{
+    margin: 0%;
+    padding-left: 3%;
+    padding-right:3%;
+    transition: all 1s ease-out;
+}
+figure:hover
+{
+    background-color: #DAD7CD;
+}
+/*organise liste*/
+nav ul
+{
+    padding: 0%;
+    list-style-type: none;
+    display:flex;
+    width:100%;
+    margin:0%;
+    font-size: 1.25rem;
+    height:80px;
+    
+    
+}
+/*organise les element de la liste*/
+nav li
+{
+    text-align: center;
+    
+    padding-top:20px;
+    padding-left: 2%;
+    padding-bottom: 5px;
+    padding-right: 2%;
+    transition: all 1s ease-out;
+    
+}
+/*change l'apparence des liens vers les autres page quand le curseur est dessus*/
+nav li:hover
+{
+    background-color: #20322A;
+    color:#fff;
+    border-top: none;
+}
+
+/*répartie également les elements de la liste*/
+.choix1
+{
+    flex-grow:5;
+    
+}
+.choix2
+{
+    flex-grow:5
+}
+.choix3
+{
+    flex-grow:5;
+}
+.choix4
+{
+    flex-grow:5;
+    
+} 
+.choix5
+{
+    flex-grow:5;
+    
+} 
+
+
+/*change la couleur des liens*/
+a
+{
+    color:#fff;
+    text-decoration: none;
+}
+
+/*fin header*/
+
+
+
+
+
+
+
+.img1
+{
+    transition: setAtribute,2s;
+    z-index: 2;
+    position:absolute;
+    top:180px;
+    right: 50px;
+}
+.img2
+{
+    transition: setAtribute,2s;
+    opacity: 0;
+    z-index:1;
+    position:absolute;
+    top:180px;
+    right: 50px;
+}
+.img3
+{
+    transition: setAtribute,2s;
+    opacity: 0;
+    z-index: 0;
+    position:absolute;
+    top:180px;
+    right: 50px;
+}
+
+
+.texte
+{
+    font-family: 'Merriweather', serif;
+    text-align: center;
+}
+
+
+h1
+{
+    
+    color: #304B3F;
+    margin-top: 20px;
+    font-size: 3rem;
+    
+      
+}
+
+footer ul
+{
+    list-style-type: none;
+    display:flex;
+    flex-direction: row; 
+    justify-content:center;
+    width:30%;
+    position:absolute;
+    bottom:0%;
+    right:35%;
+
+    
+ 
+}
+footer li
+{
+    color: #32502E;
+    padding-left: 2%;
+    padding-right: 2%;
+    font-size:1rem;
+    font-style: italic;
+    
+    
+}
+footer li:hover
+{
+    text-decoration: underline;
+}
+
+footer a
+{
+    color:#304B3F;
+}
