@@ -18,10 +18,10 @@ let correction=document.getElementById('correction')
 let logo=document.querySelector('.logo')
 function logochange(){
     
-    logo.setAttribute('src','photo/logo.3.png');
+    logo.setAttribute('src','html/photo/logo.3.png');
 }
 function logoback(){
-    logo.setAttribute('src','photo/logo.png')
+    logo.setAttribute('src','html/photo/logo.png')
 }
 
 
