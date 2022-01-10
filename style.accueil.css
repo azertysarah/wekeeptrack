@@ -1,6 +1,25 @@
 
     
 
+@media  screen and (max-width:800px) {
+    
+    #fond
+    {
+        opacity: 0;
+    }
+    #welcome
+    {
+        opacity: 0;
+    }
+}
+@media screen and (min-width:800px){
+    #welcome
+    {
+        opacity: 0.8;
+    }
+}
+    
+
 /*debut de style du header*/
 strong
 {
@@ -9,95 +28,171 @@ strong
 /*define le style de toute la page*/
 body
 {
-    background-color: #DAD7CD;
+    background-color: #fff;
     color:#fff;
-    font-family: 'Crimson Text', serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 
     margin: 0%;
     
 
 }
-
-/*organise et definie le style du header*/
-nav
+#top
+{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height:7.5vw;
+    margin-top: 1vw;
+    
+}
+#fond
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    min-width: 100%;
+    height: auto;
+    
+}
+/*organise le logo we keep track*/
+#logo
+{
+    height:9vw;
+    margin-left: 1.5vw;
+    margin-top: 0vw;
+    z-index: 100;
+    
+}
+#logo img
+{
+    max-height: 70%;
+    
+    
+}
+/*organise les logo de résaux sociaux*/
+#logotext
 {
     display: flex;
+    flex-direction: column;
+}
+
+#logo2
+{
+    
+    margin-top: 1vw;
+    margin-right: 2vw;
+    z-index: 100;
+    
+    
+
+}
+#logo2 img
+{
+    height: 2.5vw;
+    width: 2.5vw;
+    margin: 0.2vw;
+    margin-bottom: 0%;
+    
+}
+#logotext p
+{
+    color:grey;
+    text-align: center;
+    font-weight: bold;
+    z-index: 100;
+    font-size: 1vw;
+}
+
+/*organise le header*/
+header
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    
     padding-bottom: 0%;
     background-color:#304B3F;
     margin-bottom: 0px;
-    height:80px;
     
-}
-
-/*enleve les marges du logo*/
-figure
-{
-    margin: 0%;
-    padding-left: 3%;
-    padding-right:3%;
-    transition: all 1s ease-out;
-}
-figure:hover
-{
-    background-color: #DAD7CD;
-}
-/*organise liste*/
-nav ul
-{
     padding: 0%;
-    list-style-type: none;
-    display:flex;
-    width:100%;
-    margin:0%;
-    font-size: 1.25rem;
-    height:80px;
+    z-index: 1000;
+    
+    font-size:1vw;
+    height:3vw;
+    display: flex;
+    justify-content: flex-start;
+    
     
     
 }
 /*organise les element de la liste*/
-nav li
+header h2
 {
+    margin: 0%;
     text-align: center;
+    padding-top: 0.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height:2.5vw;
+    transition:all 1s ease-out;
     
-    padding-top:20px;
-    padding-left: 2%;
-    padding-bottom: 5px;
-    padding-right: 2%;
-    transition: all 1s ease-out;
-    
-}
-/*change l'apparence des liens vers les autres page quand le curseur est dessus*/
-nav li:hover
-{
-    background-color: #20322A;
-    color:#fff;
-    border-top: none;
 }
 
-/*répartie également les elements de la liste*/
-.choix1
+/*change l'apparence des liens vers les autres page quand le curseur est dessus*/
+header h2:hover
 {
-    flex-grow:5;
+    background-color: #20322A;
+    
     
 }
-.choix2
+
+
+/*organise les element de more lorsqu'il est clické*/
+#moretext1, #moretext2, #moretext3
 {
-    flex-grow:5
-}
-.choix3
-{
-    flex-grow:5;
-}
-.choix4
-{
-    flex-grow:5;
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    text-align: left;
+    justify-content: left;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin: 0%;
     
-} 
-.choix5
+}
+#moretext1
 {
-    flex-grow:5;
+    margin-top: 0.7vw;
+}
+#moretext1:hover, #moretext2:hover, #moretext3:hover
+{
+    text-decoration: underline;
+}
+
+
+#manage1, #manage2
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    text-align: left;
+    justify-content: left;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin: 0%;
     
-} 
+}
+#manage1
+{
+    margin-top: 0.7vw;
+}
+#manage1:hover, #manage2:hover
+{
+    text-decoration: underline;
+}
+
 
 
 /*change la couleur des liens*/
@@ -105,6 +200,7 @@ a
 {
     color:#fff;
     text-decoration: none;
+    font-weight: normal;
 }
 
 /*fin header*/
@@ -112,84 +208,95 @@ a
 
 
 
+#welcome
+{
+    position: absolute;
+    top: 18vw;
+    left: 10vw;
+    background-color: #fff;
+    
+    height: 20vw;
+    width: 80vw;
+    color: black;
+    font-size: 3vw;
+}
+#welcome p
+{
+    opacity: 1;
+    margin-left:5vw ;
+    
+}
 
+#info figure
+{
+    
+    right: 0px;
+    width: 100%;
+    margin: 0%;
+    
 
-
+}
 .img1
 {
-    transition: setAtribute,2s;
-    z-index: 2;
-    position:absolute;
-    top:180px;
-    right: 50px;
-}
-.img2
-{
-    transition: setAtribute,2s;
-    opacity: 0;
-    z-index:1;
-    position:absolute;
-    top:180px;
-    right: 50px;
-}
-.img3
-{
-    transition: setAtribute,2s;
-    opacity: 0;
+    transition: all,2s;
     z-index: 0;
-    position:absolute;
-    top:180px;
-    right: 50px;
+    max-width: 100%;
+    min-width: 100%;
+    height: auto;
+    
 }
 
 
-.texte
+
+footer
 {
-    font-family: 'Merriweather', serif;
+    
+    width: 100%;
+    height: 30vw;
+    
+}
+
+footer figure
+{
+    
+    display: flex;
+    justify-content: space-evenly;
+    margin-top:10vw ;
+    margin-bottom: 0%;
+}
+figure div
+{
+    width: 18vw;
+    height: 22vw;
+    cursor:help;
+}
+footer img
+{
+    opacity: 0.8;
+    max-width:100% ;
+    height: auto;
+}
+footer h1
+{
+    margin: 0%;
+    color:rgb(51, 51, 51);
+    font-size: 1.5vw;
     text-align: center;
+    position: relative;
+    bottom: 1vw;
+    padding-top:1vw;
+    padding-bottom: 1vw;
 }
-
-
-h1
+footer p
 {
-    
-    color: #304B3F;
-    margin-top: 20px;
-    font-size: 3rem;
-    
-      
-}
-
-footer ul
-{
-    list-style-type: none;
-    display:flex;
-    flex-direction: row; 
-    justify-content:center;
-    width:30%;
-    position:absolute;
-    bottom:0%;
-    right:35%;
-
-    
- 
-}
-footer li
-{
-    color: #32502E;
-    padding-left: 2%;
-    padding-right: 2%;
-    font-size:1rem;
-    font-style: italic;
-    
-    
-}
-footer li:hover
-{
-    text-decoration: underline;
-}
-
-footer a
-{
-    color:#304B3F;
+    height:18.5vw ;
+    position: relative;
+    bottom: 23vw;
+    text-align: justify;
+    opacity: 0;
+    color: rgb(51, 51, 51);
+    background-color: #fff;
+    padding: 2vw;
+    margin: 0%;
+    font-size: 1.2vw;
 }
