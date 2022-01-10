@@ -9,41 +9,77 @@
         <title>Page d'accueil d'utilistateur</title>
     </head>
     <body>
-        <div id="bloc_page">
-            <!--header pour toutes les pages d'user-->
-            <nav>
-            	<figure><!--fait apparaitre le logo-->
-            		<img class="logo" onmouseenter="logochange()" onmouseleave="logoback()" src="logo.3.png" height="80px" width="80px"alt="Logo wepreserv"/>
-            	</figure>
-                <ul><!--crée les liens pour aller aux autres pages-->
-                    <li class="choix1"><a href="MyAnimals1.html"> My animals</a></li>
-                    <li class="choix2"><a href="map.user.html"> Map of the stressfull areas</a></li>
-                    <li class="choix3"><a href="quizz.html"> Quizz</a></li>
-                    <li class="choix4"><a href="faq-user.html"> Q&A</a></li>
-                </ul>
-            </nav>
-            <!--fin header-->
+        
             
-            <div id="bottompart">
-                <div class="texte">
-                    <h1>Welcome back <strong>identifiant</strong></h1>
+            <!--header pour toutes les pages d'user-->
+            <div id="top">
+                <img id="fond" src="photo/filigrane.2.png"  >
+                <div id="logo">
+                    <img src="photo/logo.png">
+                    
                 </div>
-                <figure>
-                    <img class="img1" src="zebre.2.jpg" height="60%" width="90%" alt="Photo de zebre" title="zebre" />
-                    <img class="img2" src="elephant.jpeg" height="60%" width="90%" alt="Photo d'elephant 1" title="elephant1" />
-                    <img class="img3" src="elephant.4.jpg" height="60%" width="90%" alt="Photo d'elephant 2" title="elephant 2" />
-                   
-            	</figure>
+                <div id="logotext">
+                    <div id="logo2">
+                        <img  src="photo/facebook.1.png" >
+                        <img  src="photo/insta.1.png">
+                        <img src="photo/linkedin.1.png">
+                        <img src="photo/twitter.1.png">
+                    </div>
                 
+                    <p>Keep track of us</p>
+                </div> 
+            </div>	
+            <header><!--crée les liens pour aller aux autres pages-->
+                <h2 ><a href="my.animals.1.html"> My animals</a></h2>
+                <h2 ><a href="map.user.html"> Map</a></h2>
+                <h2 ><a href="quizz.html"> Quizz</a></h2>
+                <h2 ><a href="faq.user.html"> Q&A</a></h2>
+                <h2 class="more" onmouseenter="sizechange()" onmouseleave="sizereturn()">
+                    <a> More</a>
+                    <a id="moretext1" ></a>
+                    <a id="moretext2" ></a>
+                    <a id="moretext3" ></a>
+                </h2>
+                
+            </header>
+            
+            <!--fin header-->
+            <div id="bottompart">
+                
+                <div id="info">
+                    
+                    
+                    <figure>
+                        <img class="img1" src="photo/elephant.6.jpeg"  alt="Photo de zebre" title="zebre" />
+                        
+                    </figure>
+                </div>
+                <div id="welcome">
+                    <p>welcome back <strong>indentifiant</strong></p>
+                </div>
                 <footer>
-                    <ul>
-                        <li><a href="manage-account-user.html">Manage your account</a></li>
-                        <li><a href="contact.user.html">Contacts</a></li>
-                        <li><a href="gcu.html">General condition of use</a></li>
-                    </ul>
+                    <figure>
+                        <div  onmouseenter="logochange1()" onmouseleave="logoback1()" onclick="textclick1()" >
+                            <img   id="logoqm" src="photo/question-mark.png" >
+                            <h1 id="text1">Why do we exist?</h1>
+                            <p id="info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet turpis lectus, id pharetra turpis pulvinar sed. Nam et massa nulla. Vivamus ligula nunc, iaculis sed neque et, convallis bibendum felis. Nullam congue quam nec dapibus suscipit.</p>
+                        </div>
+                        <div  onmouseenter="logochange2()" onmouseleave="logoback2()" onclick="textclick2()" >
+                            <img id="logohr"  src="photo/heartrate.png" >
+                            <h1 id="text2">How do we work?</h1>
+                            <p id="info2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet turpis lectus, id pharetra turpis pulvinar sed. Nam et massa nulla. Vivamus ligula nunc, iaculis sed neque et, convallis bibendum felis. Nullam congue quam nec dapibus suscipit. </p>
+   
+                        </div>
+                        <div  onmouseenter="logochange3()" onmouseleave="logoback3()" onclick="textclick3()" >
+                            <img id="logobio" src="photo/bio.png" >
+                            <h1 id="text3">Who do we protect?</h1>
+                            <p id="info3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet turpis lectus, id pharetra turpis pulvinar sed. Nam et massa nulla. Vivamus ligula nunc, iaculis sed neque et, convallis bibendum felis. Nullam congue quam nec dapibus suscipit. </p>
+   
+                        </div>
+                    </figure>
                 </footer>
             </div>
-        </div>
+        
 
     </body>
 </html>
