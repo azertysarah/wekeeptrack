@@ -1,0 +1,41 @@
+/*define le style de toute la page*/
+body
+{
+    background-color: #fff;
+    color:#fff;
+    font-family: 'Crimson Text', serif;
+
+    margin: 0%;
+    
+
+}
+#title
+{
+    margin-top: 0%;
+    
+    background-color: #304B3F;
+    padding-top:30px;
+    padding-bottom:30px;
+}
+h1
+{
+    
+    text-align: center;
+    margin: 0%;
+    height: 40px;
+    
+
+    
+}
+li
+{
+    color:#304B3F;
+    margin-left: 8%;
+    font-size: 2rem;
+    cursor: pointer;
+}
+p
+{
+    color:#32502E;
+    transition: all 2s ease-out;
+}
