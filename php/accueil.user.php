@@ -30,10 +30,10 @@
                 </div> 
             </div>	
             <header><!--crée les liens pour aller aux autres pages-->
-                <h2 ><a href="my.animals.1.html"> My animals</a></h2>
-                <h2 ><a href="map.user.html"> Map</a></h2>
-                <h2 ><a href="quizz.html"> Quizz</a></h2>
-                <h2 ><a href="faq.user.html"> Q&A</a></h2>
+                <h2 ><a href="my.animals.1.php"> My animals</a></h2>
+                <h2 ><a href="map.user.php"> Map</a></h2>
+                <h2 ><a href="quizz.php"> Quizz</a></h2>
+                <h2 ><a href="faq.user.php"> Q&A</a></h2>
                 <h2 class="more" onmouseenter="sizechange()" onmouseleave="sizereturn()">
                     <a> More</a>
                     <a id="moretext1" ></a>

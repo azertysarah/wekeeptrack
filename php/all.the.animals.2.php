@@ -15,11 +15,11 @@
                     <img class="logo" onmouseenter="logochange()" onmouseleave="logoback()" src="logo.mini.png" height="80px" width="80px"alt="Logo wepreserv"/>
                 </figure>
                 <ul><!--crée les liens pour aller aux autres pages-->
-                    <li class="choix1"><a href="alltheanimals"> All the animals</a></li>
-                    <li class="choix2"><a href="map-manager.html">Map of the stressfull areas</a></li>
-                    <li class="choix3"><a href="manage.user.manager.html"> Manage users acount</a></li>
-                    <li class="choix4"><a href="quizz.html">Quizz</a></li>
-                    <li class="choix5"><a href="faq.manager.html"> Q&A</a></li>
+                    <li class="choix1"><a href="alltheanimals.php"> All the animals</a></li>
+                    <li class="choix2"><a href="map-manager.php">Map of the stressfull areas</a></li>
+                    <li class="choix3"><a href="manage.user.manager.php"> Manage users acount</a></li>
+                    <li class="choix4"><a href="quizz.php">Quizz</a></li>
+                    <li class="choix5"><a href="faq.manager.php"> Q&A</a></li>
                 </ul>
             </nav>
         </div> 

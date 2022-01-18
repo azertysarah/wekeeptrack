@@ -37,9 +37,9 @@
                 <h2 ><a href="faq.admin.html"> Q&A</a></h2>
                 <h2 class="more" onmouseenter="sizechange()" onmouseleave="sizereturn()">
                     <a> More</a>
-                    <a id="moretext1" href="contact.admin.html" ></a>
-                    <a id="moretext2" href="manage.account.admin.html" ></a>
-                    <a id="moretext3" href="gcu.html"></a>
+                    <a id="moretext1" href="contact.admin.php" ></a>
+                    <a id="moretext2" href="manage.account.admin.php" ></a>
+                    <a id="moretext3" href="gcu.php"></a>
                 </h2>
                             
             </header>

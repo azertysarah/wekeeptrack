@@ -29,11 +29,11 @@
             </div>
             <!--header pour manager-->	
             <header><!--crée les liens pour aller aux autres pages-->
-                <h2 ><a href="all.the.animals.1.html"> All the animals</a></h2>
-                <h2 ><a href="map.manager.html">Map </a></h2>
-                <h2 ><a href="manage.user.manager.html"> Manage</a></h2>
-                <h2><a href="quizz.html">Quizz</a></h2>
-                <h2><a href="faq.manager.html"> Q&A</a></h2>
+                <h2 ><a href="all.the.animals.1.php"> All the animals</a></h2>
+                <h2 ><a href="map.manager.php">Map </a></h2>
+                <h2 ><a href="manage.user.manager.php"> Manage</a></h2>
+                <h2><a href="quizz.php">Quizz</a></h2>
+                <h2><a href="faq.manager.php"> Q&A</a></h2>
                 <h2 class="more" onmouseenter="sizechange()" onmouseleave="sizereturn()">
                     <a> More</a>
                     <a id="moretext1" ></a>
