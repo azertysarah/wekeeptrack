@@ -7,7 +7,7 @@ require("src/connection.php");
  
 		// VARIABLE
  
-		$sername		= $_POST['username'];
+		$username		= $_POST['username'];
 		$email			= $_POST['email'];
 		$password		= $_POST['password'];
 		$pass_confirm 	= $_POST['password_confirm'];
