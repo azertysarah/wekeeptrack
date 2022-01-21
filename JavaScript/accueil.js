@@ -61,8 +61,8 @@ function manage(){
     manage0.style.height="15vw"
     manage0.style.width="13vw"
     
-    manage1.textContent="Manage users account"
-    manage2.textContent="Manage Managers account"
+    manage1.textContent="Manage accounts"
+    manage2.textContent="Add accounts"
         
 }
 function manageback(){
