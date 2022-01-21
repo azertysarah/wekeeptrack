@@ -31,14 +31,17 @@
             <header><!--crée les liens pour aller aux autres pages-->
                 <h2 ><a href="all.the.animals.1.php"> All the animals</a></h2>
                 <h2 ><a href="map.manager.php">Map </a></h2>
-                <h2 ><a href="manage.user.manager.php"> Manage</a></h2>
+                <h2 onmouseenter="manage()" onmouseleave="manageback()" class="manage">
+                    <a >Manage</a>
+                    <a id="manage1" href="manage.user.manager.php"></a>
+                    <a id="manage2" href="add.user.manager.php"></a>
                 <h2><a href="quizz.php">Quizz</a></h2>
                 <h2><a href="faq.manager.php"> Q&A</a></h2>
                 <h2 class="more" onmouseenter="sizechange()" onmouseleave="sizereturn()">
                     <a> More</a>
-                    <a id="moretext1" ></a>
-                    <a id="moretext2" ></a>
-                    <a id="moretext3" ></a>
+                    <a id="moretext1" href="contact.admin.php" ></a>
+                    <a id="moretext2" href="manage.account.admin.html" ></a>
+                    <a id="moretext3" href="gcu.html"></a>
                 </h2>
                 
             </header>
