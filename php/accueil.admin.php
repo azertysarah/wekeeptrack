@@ -30,8 +30,8 @@
             <header><!--crée les liens pour aller aux autres pages-->
                 <h2 onmouseenter="manage()" onmouseleave="manageback()" class="manage">
                     <a >Manage</a>
-                    <a id="manage1"></a>
-                    <a id="manage2"></a>
+                    <a href="manage.manager.admin.php" id="manage1"></a>
+                    <a href="add.manager.admin.php" id="manage2"></a>
                 </h2>
                 <h2 > <a Quizz href="quizz.html">Quizz</a></h2>
                 <h2 ><a href="faq.admin.html"> Q&A</a></h2>
