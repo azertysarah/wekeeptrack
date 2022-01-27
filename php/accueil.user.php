@@ -62,18 +62,18 @@
                         <div  onmouseenter="logochange1()" onmouseleave="logoback1()" onclick="textclick1()" >
                             <img   id="logoqm" src="photo/question-mark.png" >
                             <h1 id="text1">Why do we exist?</h1>
-                            <p id="info1">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet turpis lectus, id pharetra turpis pulvinar sed. Nam et massa nulla. Vivamus ligula nunc, iaculis sed neque et, convallis bibendum felis. Nullam congue quam nec dapibus suscipit.</p>
+                            <p id="info1">Our corporation values the life of all animals and our goal, as well as the reason we exist is to allow associations worldwide to have access to a simple and intuitive solution to have significants data about the animals they want to protect.</p>
                         </div>
                         <div  onmouseenter="logochange2()" onmouseleave="logoback2()" onclick="textclick2()" >
                             <img id="logohr"  src="photo/heartrate.png" >
                             <h1 id="text2">How do we work?</h1>
-                            <p id="info2">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet turpis lectus, id pharetra turpis pulvinar sed. Nam et massa nulla. Vivamus ligula nunc, iaculis sed neque et, convallis bibendum felis. Nullam congue quam nec dapibus suscipit. </p>
+                            <p id="info2">The website is really beginner friendly, there are some buttons witch will lead you to differents locations. Our solution is composed of two sensors: a GPS and a heart sensor that will provide vital informations as well as locations to act in case of emergency.</p>
    
                         </div>
                         <div  onmouseenter="logochange3()" onmouseleave="logoback3()" onclick="textclick3()" >
                             <img id="logobio" src="photo/bio.png" >
                             <h1 id="text3">Who do we protect?</h1>
-                            <p id="info3">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras aliquet turpis lectus, id pharetra turpis pulvinar sed. Nam et massa nulla. Vivamus ligula nunc, iaculis sed neque et, convallis bibendum felis. Nullam congue quam nec dapibus suscipit. </p>
+                            <p id="info3">We want to protect all the animals equally, as long as they are bound to an ONG. There is no such thing as superiors or inferiors animals.</p>
    
                         </div>
                     </figure>
