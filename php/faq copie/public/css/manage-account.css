@@ -1,0 +1,161 @@
+/*debut de style du header*/
+strong
+{
+    font-style: italic;
+}
+/*define le style de toute la page*/
+body
+{
+    background-color: #DAD7CD;
+    color:#fff;
+    font-family: 'Crimson Text', serif;
+
+    margin: 0%;
+
+
+}
+
+/*organise et definie le style du header*/
+nav
+{
+    display: flex;
+    padding-bottom: 0%;
+    background-color:#304B3F;
+    margin-bottom: 0px;
+    height:80px;
+
+}
+
+/*enleve les marges du logo*/
+figure
+{
+    margin: 0%;
+    padding-left: 3%;
+    padding-right:3%;
+    transition: all 1s ease-out;
+}
+figure:hover
+{
+    background-color: #DAD7CD;
+}
+/*organise liste*/
+nav ul
+{
+    padding: 0%;
+    list-style-type: none;
+    display:flex;
+    width:100%;
+    margin:0%;
+    font-size: 1.25rem;
+    height:80px;
+
+
+}
+/*organise les element de la liste*/
+nav li
+{
+    text-align: center;
+
+    padding-top:20px;
+    padding-left: 2%;
+    padding-bottom: 5px;
+    padding-right: 2%;
+    transition: all 1s ease-out;
+
+}
+/*change l'apparence des liens vers les autres page quand le curseur est dessus*/
+nav li:hover
+{
+    background-color: #20322A;
+    color:#fff;
+    border-top: none;
+}
+
+/*répartie également les elements de la liste*/
+.choix1
+{
+    flex-grow:5;
+
+}
+.choix2
+{
+    flex-grow:5
+}
+.choix3
+{
+    flex-grow:5;
+}
+.choix4
+{
+    flex-grow:5;
+
+}
+.choix5
+{
+    flex-grow:5;
+
+}
+
+
+/*change la couleur des liens*/
+a
+{
+    color:#fff;
+    text-decoration: none;
+}
+
+/*fin header*/
+
+/*style du rectangle d'arrière-plan*/
+.rectangle{
+  color: black;
+  background: #FBFBF4;
+  margin: 0 20%;
+  height: 416px;
+}
+
+/*style de la ligne verticale*/
+.vl{
+  height: 416px;
+  left: 50%;
+  border-left: 3px solid green;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+}
+
+/*dimension de la photo de profil*/
+img[alt|=photo]{
+  height: 150px;
+  width: 150px;
+}
+
+/*position du texte à droite de la photo de profil*/
+p[name|=needed]{
+  text-align: right;
+}
+p span{
+  float: left;
+}
+
+/*rendre la police des liens noir (par défaut: blanc) */
+a[name|=a]{
+  color: blue;
+}
+
+/*modification de la taille de la police des infos*/
+p{
+  font-size: 1.1rem;
+}
+/*modification de la position des titres h2 */
+h2[name|=about-you]{
+  margin-top:10px;
+}
+
+h2[name|=edit-profil]{
+  margin-top:40px;
+}
+
+.username{
+  margin-top:70px;
+}
