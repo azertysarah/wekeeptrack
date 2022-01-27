@@ -1,0 +1,356 @@
+@media  screen and (max-width:800px) {
+    
+    #fond
+    {
+        opacity: 0;
+    }
+    #welcome
+    {
+        opacity: 0;
+    }
+}
+@media screen and (min-width:800px){
+    #welcome
+    {
+        opacity: 0.8;
+    }
+}
+    
+
+/*debut de style du header*/
+strong
+{
+    font-style: italic;
+}
+/*define le style de toute la page*/
+body
+{
+    background-color:#fff;
+    color:#fff;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+    margin: 0%;
+    
+
+}
+#top
+{
+    
+    display: flex;
+    justify-content: space-between;
+    background-color: #fff;
+    height:7.5vw;
+    margin-top: 1vw;
+    
+}
+#fond
+{
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    z-index: 1;
+    min-width: 100%;
+    height: auto;
+    
+}
+/*organise le logo we keep track*/
+#logo
+{
+    height:9vw;
+    margin-left: 1.5vw;
+    margin-top: 0vw;
+    z-index: 100;
+    
+}
+#logo img
+{
+    max-height: 70%;
+    
+    
+}
+/*organise les logo de résaux sociaux*/
+#logotext
+{
+    display: flex;
+    flex-direction: column;
+}
+
+#logo2
+{
+    
+    margin-top: 1vw;
+    margin-right: 2vw;
+    z-index: 100;
+    
+    
+
+}
+#logo2 img
+{
+    height: 2.5vw;
+    width: 2.5vw;
+    margin: 0.2vw;
+    margin-bottom: 0%;
+    
+}
+#logotext p
+{
+    color:grey;
+    text-align: center;
+    font-weight: bold;
+    z-index: 100;
+    font-size: 1vw;
+}
+
+/*organise le header*/
+header
+{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0px;
+    
+    padding-bottom: 0%;
+    background-color:#304B3F;
+    margin-bottom: 0px;
+    
+    padding: 0%;
+    z-index: 1000;
+    
+    font-size:1vw;
+    height:3vw;
+    display: flex;
+    justify-content: flex-start;
+    
+    
+    
+}
+/*organise les element de la liste*/
+header h2
+{
+    margin: 0%;
+    text-align: center;
+    padding-top: 0.5vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    height:2.5vw;
+    transition:all 1s ease-out;
+    
+}
+
+/*change l'apparence des liens vers les autres page quand le curseur est dessus*/
+header h2:hover
+{
+    background-color: #20322A;
+    
+    
+}
+
+
+/*organise les element de more lorsqu'il est clické*/
+#moretext1, #moretext2, #moretext3
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    text-align: left;
+    justify-content: left;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin: 0%;
+    
+}
+#moretext1
+{
+    margin-top: 0.7vw;
+}
+#moretext1:hover, #moretext2:hover, #moretext3:hover
+{
+    text-decoration: underline;
+}
+
+
+#manage1, #manage2
+{
+    display: flex;
+    flex-direction: column;
+    font-weight: normal;
+    text-align: left;
+    justify-content: left;
+    padding-top: 0.5vw;
+    padding-bottom: 0.5vw;
+    margin: 0%;
+    
+}
+#manage1
+{
+    margin-top: 0.7vw;
+}
+#manage1:hover, #manage2:hover
+{
+    text-decoration: underline;
+}
+#deco
+{
+    margin-left: 55vw;
+    margin-top: 0.8vw;
+    font-size: 1vw;
+    font-weight: normal;
+    
+}
+#deco:hover
+{
+    text-decoration: underline;
+}
+
+
+/*change la couleur des liens*/
+a
+{
+    color:#fff;
+    text-decoration: none;
+    font-weight: normal;
+}
+
+/*fin header*/
+
+
+#boite .manage 
+{
+    
+    border-right:#20322A 4px solid; 
+    width: 50%;
+    
+    position:relative;  
+}
+.container
+{
+    
+    margin-left: 33vw;
+
+}
+td
+{
+    color: #304B3F;
+    font-weight: normal;
+    font-size: 2vw;
+}
+h1
+{
+    color: #304B3F;
+    
+}
+.titre
+{
+    margin-left:8vw;
+}
+.edit
+{
+    
+    border-left: #20322A 4px solid; 
+    
+    width:50%;
+    height: 550px;
+    position:relative;  
+}
+
+#boite .manage h1,.edit h1
+{
+    background-color: #304B3F;
+    border:#20322A 2px solid;
+    border-radius: 10px;
+    text-align: center;
+    margin-top: 5%;
+    margin-left: 30%;
+    margin-right: 30%;
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+    font-weight: normal;
+
+    
+}
+label 
+{
+    margin-top:0px;
+    margin-bottom: 0%;
+    margin-left: 3%;
+    display: block;
+    color:#304B3F;
+}
+
+
+#boite .manage h3,.edit h3
+{
+    list-style: none;
+    
+    color:#304B3F;
+    margin-left: 3%;
+    margin-right: 65%;
+    margin-top: 2%;
+    margin-bottom: 0%;
+    font-size: 1rem;
+    font-weight: unset;
+    text-decoration: initial;
+}
+#boite .manage h2
+{
+    background-color: #304B3F;
+    border:#20322A 2px solid;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    position:absolute;
+    bottom: 0%;
+    right:10%;
+    font-weight: normal;
+    padding:2%;
+    font-size:1.25rem;
+    
+
+}
+.edit h2
+{
+    background-color: #304B3F;
+    border:#20322A 2px solid;
+    border-radius: 10px;
+    margin-bottom: 1%;
+    
+    font-weight: normal;
+    padding:2%;
+    font-size:1.25rem;
+    
+}
+.delete
+{
+    position: absolute;
+    bottom: 0%;
+    left: 2%;
+}
+.confirm
+{
+    position: absolute;
+    bottom: 0%;
+    right: 2%;
+}
+input
+{
+    margin-left: 3%;
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+
+#boite .manage:hover,.edit:hover
+{
+    background-color: #CBC7B9;
+    font-weight: bold;
+     
+}
+h2:hover
+{
+    background-color:#20322A ;
+}
+input:focus
+{
+  font-weight: bold;
+  color: #304B3F;
+  
+  
+}

@@ -1,0 +1,256 @@
+@media  screen and (max-width:800px) {
+    
+  #fond
+  {
+      opacity: 0;
+  }
+  #welcome
+  {
+      opacity: 0;
+  }
+}
+@media screen and (min-width:800px){
+  #welcome
+  {
+      opacity: 0.8;
+  }
+}
+  
+
+/*debut de style du header*/
+strong
+{
+  font-style: italic;
+}
+/*define le style de toute la page*/
+body
+{
+  background-color: #fff;
+  color:#fff;
+  font-family:Verdana, Geneva, Tahoma, sans-serif;
+
+  margin: 0%;
+  
+
+}
+#top
+{
+  
+  display: flex;
+  justify-content: space-between;
+  background-color: #fff;
+  height:7.5vw;
+  margin-top: 1vw;
+  
+}
+#fond
+{
+  position: absolute;
+  top: 0%;
+  left: 0%;
+  z-index: 1;
+  min-width: 100%;
+  height: auto;
+  
+}
+/*organise le logo we keep track*/
+#logo
+{
+  height:9vw;
+  margin-left: 1.5vw;
+  margin-top: 0vw;
+  z-index: 100;
+  
+}
+#logo img
+{
+  max-height: 70%;
+  
+  
+}
+/*organise les logo de résaux sociaux*/
+#logotext
+{
+  display: flex;
+  flex-direction: column;
+}
+
+#logo2
+{
+  
+  margin-top: 1vw;
+  margin-right: 2vw;
+  z-index: 100;
+  
+  
+
+}
+#logo2 img
+{
+  height: 2.5vw;
+  width: 2.5vw;
+  margin: 0.2vw;
+  margin-bottom: 0%;
+  
+}
+#logotext p
+{
+  color:grey;
+  text-align: center;
+  font-weight: bold;
+  z-index: 100;
+}
+
+/*organise le header*/
+header
+{
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0px;
+  
+  padding-bottom: 0%;
+  background-color:#304B3F;
+  margin-bottom: 0px;
+  
+  padding: 0%;
+  z-index: 1000;
+  
+  font-size:1vw;
+  height:3vw;
+  display: flex;
+  justify-content: flex-start;
+  
+  
+  
+}
+/*organise les element de la liste*/
+header h2
+{
+  margin: 0%;
+  text-align: center;
+  padding-top: 0.5vw;
+  padding-left: 2vw;
+  padding-right: 2vw;
+  height:2.5vw;
+  transition:all 1s ease-out;
+  
+}
+
+/*change l'apparence des liens vers les autres page quand le curseur est dessus*/
+header h2:hover
+{
+  background-color: #20322A;
+  
+  
+}
+
+
+/*organise les element de more lorsqu'il est clické*/
+#moretext1, #moretext2, #moretext3
+{
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  text-align: left;
+  justify-content: left;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  margin: 0%;
+  
+}
+#moretext1
+{
+  margin-top: 0.7vw;
+}
+#moretext1:hover, #moretext2:hover, #moretext3:hover
+{
+  text-decoration: underline;
+}
+
+
+#manage1, #manage2
+{
+  display: flex;
+  flex-direction: column;
+  font-weight: normal;
+  text-align: left;
+  justify-content: left;
+  padding-top: 0.5vw;
+  padding-bottom: 0.5vw;
+  margin: 0%;
+  
+}
+#manage1
+{
+  margin-top: 0.7vw;
+}
+#manage1:hover, #manage2:hover
+{
+  text-decoration: underline;
+}
+
+
+
+/*change la couleur des liens*/
+a
+{
+  color:#fff;
+  text-decoration: none;
+  font-weight: normal;
+}
+
+/*fin header*/
+
+/*style du rectangle d'arrière-plan*/
+.rectangle{
+  color: black;
+  background: #FBFBF4;
+  margin: 0 20%;
+  height: 416px;
+}
+
+/*style de la ligne verticale*/
+.vl{
+  height: 416px;
+  left: 50%;
+  border-left: 3px solid green;
+  padding-left: 10px;
+  padding-right: 10px;
+  position: absolute;
+}
+
+/*dimension de la photo de profil*/
+img[alt|=photo]{
+  height: 150px;
+  width: 150px;
+}
+
+/*position du texte à droite de la photo de profil*/
+p[name|=needed]{
+  text-align: right;
+}
+p span{
+  float: left;
+}
+
+/*rendre la police des liens noir (par défaut: blanc) */
+a[name|=a]{
+  color: blue;
+}
+
+/*modification de la taille de la police des infos*/
+p{
+  font-size: 1.1rem;
+}
+/*modification de la position des titres h2 */
+h2[name|=about-you]{
+  margin-top:10px;
+}
+
+h2[name|=edit-profil]{
+  margin-top:40px;
+}
+
+.username{
+  margin-top:70px;
+}
