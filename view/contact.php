@@ -48,7 +48,7 @@ session_start()
                 <h2>Administrator emails</h2>
             </div>
             <div id="boite">
-                <?php include '../controler/contact.php'?>
+                <?php include '../controler/contact.2.php'?>
                 <!--crée une boite manager-->
                 <div class="manager">
                     
